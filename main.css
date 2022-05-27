@@ -123,12 +123,6 @@
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background: #ffcede;
   width: 128px;
@@ -146,9 +140,16 @@
   font-size: 1.2rem;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
+  }
+}
+
+/* h1 { font-family: sans-serif; } */
 
 .modal {
   position: fixed;
